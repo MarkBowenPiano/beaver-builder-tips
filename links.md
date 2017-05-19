@@ -1,5 +1,8 @@
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
 ```[I'm an inline-style link with title](https://www.google.com "Google's Homepage")```
+
+---
 
 **Easy way to create custom code**
 https://generatewp.com
