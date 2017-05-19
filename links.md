@@ -20,23 +20,23 @@ To do so, connect as ec2-user with ssh
     edit /etc/ssh/sshd_config and change these two lines from
 
 
-#PermitRootLogin yes
-PermitRootLogin forced-commands-only
+```#PermitRootLogin yes
+PermitRootLogin forced-commands-only```
 
 to
 
-PermitRootLogin yes
-#PermitRootLogin forced-commands-only
+```PermitRootLogin yes
+#PermitRootLogin forced-commands-only```
 
-    restart ssh daemon
+```    restart ssh daemon```
 
 
-root@ip-10-235-67-181 ec2-user# service sshd stop
+```root@ip-10-235-67-181 ec2-user# service sshd stop
 Stopping sshd: OK
 root@ip-10-235-67-181 ec2-user# service sshd start
-Starting sshd: OK
+Starting sshd: OK```
 
-    edit /root/.ssh/authorized_keys
+```    edit /root/.ssh/authorized_keys```
 
 
 and remove everything from the start of the line to ssh-rsa ...
