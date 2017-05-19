@@ -1,0 +1,7 @@
+You’ll need to place a class to the row where the video is assigned, .e.g, video-bg-noloop.
+
+jQuery(window).load(function () {
+    jQuery('.video-bg-noloop video').removeAttr('loop');
+});
+
+FFFoun
