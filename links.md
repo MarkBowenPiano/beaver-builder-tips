@@ -1,13 +1,14 @@
 **Easy way to create custom code**
 https://generatewp.com
 
+---
+
 **Custom Fields**
 https://cmb2.io
 http://pods.io
 http://www.advancedcustomfields.com
 
-
-
+---
 
 **How to use SFTP to connect to Amazon EC2**
 
@@ -49,3 +50,6 @@ The key to use is the same as the key used for ec2-user (Amazon Linux is configu
 For security reason, it is advised to undo your changes when you're finish to edit your configuration files. (switch back to original sshd_config and restart ssh service again)
 
 **Found here** - *https://forums.aws.amazon.com/thread.jspa?threadID=120241*
+
+---
+
