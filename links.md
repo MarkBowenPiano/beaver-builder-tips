@@ -35,25 +35,31 @@ To do so, connect as ec2-user with ssh
 
 
 #PermitRootLogin yes
+
 PermitRootLogin forced-commands-only
 
 to
 
 PermitRootLogin yes
+
 #PermitRootLogin forced-commands-only
 
     restart ssh daemon
 
 
 root@ip-10-235-67-181 ec2-user# service sshd stop
+
 Stopping sshd: OK
+
 root@ip-10-235-67-181 ec2-user# service sshd start
+
 Starting sshd: OK
 
     edit /root/.ssh/authorized_keys
 
 
 and remove everything from the start of the line to ssh-rsa ...
+
 Your new line MUST start with ssh-rsa
 
     then exit the root session, exit the ec2-user session and try to connect with root user
